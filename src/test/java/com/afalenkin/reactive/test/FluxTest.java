@@ -14,6 +14,9 @@ import java.util.List;
 /**
  * @author Alenkin Andrew
  * oxqq@ya.ru
+ *
+ * Здесь рассматриваются Cold Observable - холодные, это означает что до тех пор, пока кто-нибудь не подпишется
+ * на паблишер - ничего происходить не будет.
  */
 @Slf4j
 class FluxTest {
